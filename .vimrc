@@ -43,6 +43,7 @@ let g:netrw_liststyle = 3      " 设置目录列表样式：树形
 let g:netrw_browse_split = 4   " 在之前的窗口编辑文件
 let g:netrw_altv = 1           " 水平分割时，文件浏览器始终显示在左边
 let g:netrw_winsize = 20       " 设置文件浏览器窗口宽度为20%
+let g:file_explorer_size = 20  " 设置文件浏览器标题宽度为20%
 
 augroup ProjectDrawer
     autocmd!
