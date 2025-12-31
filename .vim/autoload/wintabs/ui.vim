@@ -77,7 +77,7 @@ function! s:get_bufline_non_memoized(window, ...)
   let active_index = index(buffers, winbufnr(a:window))
 
   if g:show_file_explorer[tabpagenr()]
-      let file_explorer_width = &columns * g:netrw_winsize / 100
+      let file_explorer_width = &columns * g:file_explorer_size / 100
       let file_explorer_label = []
       let file_explorer_text = ['F','i','l','e',' ','E','x','p','l','o','r','e','r']
       
