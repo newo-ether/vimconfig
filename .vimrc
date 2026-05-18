@@ -108,7 +108,7 @@ function! TabNew()
 endfunction
 
 nnoremap <TAB>f :call ToggleNetrw()<CR>
-nnoremap <TAB>q :q<CR>:q<CR>
+nnoremap <TAB>q :qa<CR>
 nnoremap <TAB>w <C-w>w
 nnoremap <TAB>v <C-w>l:edit ~/.vimrc<CR>
 nnoremap <TAB>s <C-w>l:terminal<CR><C-w>12_
